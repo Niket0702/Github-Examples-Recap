@@ -2,7 +2,8 @@ name: Webhook Event Example
 
 on:
   repository_dispatch:
-    types: [webhook]
+    types: 
+        - webhook
 
 jobs:
   respond-to-dispatch:
