@@ -2,6 +2,8 @@ name: 'scheduleWorkflowExample'
 on:
   schedule:
     - cron: '*/1 * * * *'
+  
+  workflow_dispatch:
 
 jobs:
   hello_world:
